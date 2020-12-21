@@ -1,0 +1,8 @@
+name: Staging deployment
+
+on: 
+  type: [labled]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
