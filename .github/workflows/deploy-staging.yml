@@ -1,7 +1,9 @@
 name: Staging deployment
 
 on: 
-  types: [labled]
+  pull_request:
+    types: [labled]
+
 
 jobs:
   build:
