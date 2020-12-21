@@ -1,7 +1,7 @@
 name: Staging deployment
 
 on: 
-  type: [labled]
+  types: [labled]
 
 jobs:
   build:
